@@ -5,4 +5,8 @@ public class Acrylic extends Painting {
         super(title);
         this.layers = layers;
     }
+    public void addLayer() {
+        this.layers += 1;
+    }
+    
 }
