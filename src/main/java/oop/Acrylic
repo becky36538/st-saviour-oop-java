@@ -1,0 +1,8 @@
+package oop;
+public class Acrylic extends Painting {
+    public int layers;
+    public Acrylic(String title, int layers) {
+        super(title);
+        this.layers = layers;
+    }
+}
